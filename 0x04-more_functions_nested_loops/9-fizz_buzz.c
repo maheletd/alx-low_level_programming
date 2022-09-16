@@ -1,5 +1,6 @@
-#include <stdio.h>  
+#include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - prints the numbers from 1 to 100
  * 3 multiples print Fizz instead of the number
@@ -13,6 +14,7 @@ int main(void)
 	char f[] = "Fizz";
 	char b[] = "Buzz";
 	char fb[] = "FizzBuzz";
+
 	for (i = 1; i <= 100; i++)
 	{
 		if (i == 100)
