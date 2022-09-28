@@ -10,6 +10,7 @@
 int _strlen_recursion(char *s)
 {
 	int sum = 0;
+
 	if (*s != '\0')
 	{
 		sum++;
