@@ -9,12 +9,13 @@
  * Return: first index for which cmp doesn't return 0, or -1
  */
 
-int int_index(int*array, int size, int(*cmp)(int))
+int int_index(int *array, int size, int(*cmp)(int))
 {
-	int i,r;
+	int i, r;
+
 	if (size > 0 && array && cmp)
 	{
-		for (i = 0; i<size;i++)
+		for (i = 0; i < size; i++)
 		{
 			r = cmp(array[i]);
 			if (r)
